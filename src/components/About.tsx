@@ -2,7 +2,7 @@ import freshFruits from "@/assets/fresh-fruits.jpg";
 
 const About = () => {
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-background to-muted/30">
+    <section className="py-20 px-4 bg-gradient-to-br from-secondary/20 via-background to-muted/40">
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-slide-in-left">
@@ -19,17 +19,17 @@ const About = () => {
             </p>
             
             <div className="grid grid-cols-3 gap-4 pt-6">
-              <div className="text-center p-4 bg-card rounded-2xl shadow-soft">
+              <div className="text-center p-4 bg-gradient-to-br from-primary/10 to-leaf/20 rounded-2xl shadow-soft border-2 border-primary/20">
                 <div className="text-3xl font-bold text-primary mb-1">100+</div>
-                <div className="text-sm text-muted-foreground">Organic Recipes</div>
+                <div className="text-sm text-foreground/80">Organic Recipes</div>
               </div>
-              <div className="text-center p-4 bg-card rounded-2xl shadow-soft">
+              <div className="text-center p-4 bg-gradient-to-br from-river/10 to-sky/20 rounded-2xl shadow-soft border-2 border-river/20">
                 <div className="text-3xl font-bold text-river mb-1">50+</div>
-                <div className="text-sm text-muted-foreground">Wellness Practices</div>
+                <div className="text-sm text-foreground/80">Wellness Practices</div>
               </div>
-              <div className="text-center p-4 bg-card rounded-2xl shadow-soft">
+              <div className="text-center p-4 bg-gradient-to-br from-mango/10 to-accent/20 rounded-2xl shadow-soft border-2 border-mango/20">
                 <div className="text-3xl font-bold text-mango mb-1">25+</div>
-                <div className="text-sm text-muted-foreground">Valley Experiences</div>
+                <div className="text-sm text-foreground/80">Valley Experiences</div>
               </div>
             </div>
           </div>

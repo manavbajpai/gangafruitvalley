@@ -30,7 +30,7 @@ const articles = [
 
 const NatureJournal = () => {
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-background to-muted/30">
+    <section className="py-20 px-4 bg-gradient-to-br from-background via-accent/10 to-muted/50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gradient-valley">
@@ -45,7 +45,7 @@ const NatureJournal = () => {
           {articles.map((article, index) => (
             <Card
               key={article.title}
-              className="overflow-hidden border-2 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-float hover:-translate-y-2 bg-card cursor-pointer group animate-fade-in"
+              className="overflow-hidden border-2 border-primary/30 hover:border-primary transition-all duration-300 hover:shadow-float hover:-translate-y-2 bg-gradient-to-br from-card to-river/5 cursor-pointer group animate-fade-in"
               style={{ animationDelay: `${index * 0.15}s` }}
             >
               <div className="relative h-48 overflow-hidden">

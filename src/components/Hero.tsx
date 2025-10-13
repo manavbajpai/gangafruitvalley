@@ -12,7 +12,7 @@ const Hero = () => {
           alt="Lush green valley with Ganga river flowing through fruit orchards"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/60 to-background"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-primary/20 via-river/30 to-background"></div>
       </div>
 
       {/* Floating Elements */}
