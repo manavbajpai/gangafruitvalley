@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroValley from "@/assets/hero-valley.jpg";
 
 const Hero = () => {
@@ -36,13 +37,15 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: "0.6s" }}>
-          <Button 
-            size="lg" 
-            className="text-lg px-8 py-6 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground shadow-float group transition-all duration-300 hover:scale-105"
-          >
-            Explore the App
-            <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-          </Button>
+          <Link to="/subscription">
+            <Button 
+              size="lg" 
+              className="text-lg px-8 py-6 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground shadow-float group transition-all duration-300 hover:scale-105"
+            >
+              Subscribe Now
+              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+            </Button>
+          </Link>
           
           <Button 
             size="lg" 
