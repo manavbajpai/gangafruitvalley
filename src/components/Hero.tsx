@@ -13,7 +13,7 @@ const Hero = () => {
           alt="Lush green valley with Ganga river flowing through fruit orchards"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/20 via-river/30 to-background"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-primary/0 via-river/5 to-background/60"></div>
       </div>
 
       {/* Floating Elements */}
@@ -25,16 +25,23 @@ const Hero = () => {
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
           Welcome to{" "}
-          <span className="text-gradient-valley">Ganga Fruit Valley</span>
+          <span className="text-gradient-forest">Ganga Fruit Valley</span>
         </h1>
         
-        <p className="text-xl md:text-2xl mb-8 text-foreground/90 font-light animate-fade-in" style={{ animationDelay: "0.2s" }}>
-          Where nature meets nourishment
-        </p>
-        
-        <p className="text-base md:text-lg mb-10 max-w-2xl mx-auto text-foreground/80 animate-fade-in" style={{ animationDelay: "0.4s" }}>
-          Experience the serenity of organic living, fruit-based nutrition, and wellness inspired by the lush valleys and pure waters of the sacred Ganga
-        </p>
+        <p
+  className="text-xl md:text-2xl mb-8 text-white tracking-wide animate-fade-in"
+  style={{ animationDelay: "0.2s" }}
+>
+  Where nature meets nourishment
+</p>
+
+<p
+  className="text-base md:text-lg mb-10 max-w-2xl mx-auto text-white/90 font-medium leading-relaxed animate-fade-in"
+  style={{ animationDelay: "0.4s" }}
+>
+  Experience the serenity of organic living, fruit-based nutrition, and wellness inspired by the lush valleys and pure waters of the sacred Ganga
+</p>
+
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: "0.6s" }}>
           <Link to="/subscription">
