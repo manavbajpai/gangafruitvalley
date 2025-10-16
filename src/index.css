@@ -138,7 +138,7 @@ All colors MUST be HSL.
 
 @layer utilities {
   .text-gradient-valley {
-    background: var(--gradient-valley);
+    background: var(--gradient-forest);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
